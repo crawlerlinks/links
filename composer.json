@@ -1,0 +1,33 @@
+{
+    "name": "crawlerlinks/links",
+    "description": "Collect Error Links",
+    "homepage": "https://github.com/crawlerlinks/links",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crawlerlinks",
+            "email": "crawlerlinks@chacuo.net",
+            "homepage": "https://github.com/crawlerlinks/links",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
